@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: orange;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: solid 2px black;
+}
+
+.titulo-header {
+  color: red;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/********************************************************************************************************* */
+
+body {
+  background-color: rgb(207, 80, 80);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.drug-section {
+  margin: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(219, 219, 219);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+/*************************************************************************************************************/
+footer {
+  background-color: orange;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border: solid 2px black;
+}
+
+footer a {
+  color: rgb(5, 13, 240);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: red;
+}
